@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component library</title>
-    <link href="styeles.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -25,6 +25,7 @@
     <p>This is a paragraph. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia beatae sed totam quis
         animi, ratione deleniti dicta sequi ut, facilis nihil maiores architecto iure, cumque voluptatem vitae minus
         eius quam.</p>
+        <p>this is a <strong>bold</strong>text</p>
     <small>this is small</small>
 
     <hr>
@@ -33,18 +34,18 @@
     <h2>@containers</h2>
 
     <h3>fluid container</h3>
-    <div>this goes till end of the space available.</div>
+    <div class="container">this goes till end of the space available.</div>
 
     <h2>center container</h2>
-    <div>this takes the center</div>
+    <div class="container container__center">this takes the center and go till specified width</div>
 
     <hr>
 
 
     <h2>@links</h2>
 
-    <a href="https://google.com">Google</a>
-    <a href="https://youtube.com">Youtube</a>
+    <a class="link link__primary" href="https://google.com">Google</a>
+    <a class="link link__secondary" href="https://youtube.com">Youtube</a>
 
     <hr>
 
