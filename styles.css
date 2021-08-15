@@ -17,7 +17,7 @@ hr {
 }
 
 .container {
-    padding: 0rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .container__center {
@@ -28,6 +28,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin: 1rem;
 }
 
 .link__primary {
@@ -113,6 +114,11 @@ hr {
     text-align: center;
     color: white;
     border-top-right-radius: 0.5rem;
+}
+
+.footer .footer__header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link{

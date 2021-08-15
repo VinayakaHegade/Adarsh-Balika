@@ -1,145 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component library</title>
-    <link href="styles.css" rel="stylesheet" />
+    <title>Adarsh Balika</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
-
 <body>
-    <h1>Vinayak's Component Library</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aut atque porro debitis harum minus aspernatur ea.
-        Reprehenderit natus, id provident maiores mollitia accusantium eveniet, alias cum voluptate quibusdam
-        exercitationem?</p>
-
-    <hr>
-
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the seconnd biggest heading </h2>
-    <p>This is a paragraph. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia beatae sed totam quis
-        animi, ratione deleniti dicta sequi ut, facilis nihil maiores architecto iure, cumque voluptatem vitae minus
-        eius quam.</p>
-    <p>this is a <strong>bold </strong>text</p>
-    <small>this is small</small>
-
-    <hr>
-
-
-    <h2>@containers</h2>
-
-    <h3>fluid container</h3>
-    <div class="container">this goes till end of the space available.</div>
-
-    <h2>center container</h2>
-    <div class="container container__center">this takes the center and go till specified width</div>
-
-    <hr>
-
-
-    <h2>@links</h2>
-
-    <a class="link link__primary" href="https://google.com">Google</a>
-    <a class="link link__secondary" href="https://youtube.com">Youtube</a>
-
-    <hr>
-
-
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-    <p>this list will have no bullet</p>
-    <ul class="list__nonbullet">
-        <li>IOT</li>
-        <li>Blockchain</li>
-        <li>Machine Learning</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul class="list__nonbullet ">
-        <li class="list__nonbullet--inline">HTML</li>
-        <li class="list__nonbullet--inline">CSS</li>
-        <li class="list__nonbullet--inline">Javascript</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol reversed>
-        <li>React</li>
-        <li>Angular</li>
-        <li>flutter</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
+    
     <nav class="navigation container">
-        <div class="nav__brand">iamBrand</div>
+        <div class="nav__brand">IamWebDeveloper</div>
         <ul class="list__nonbullet nav__pills">
             <li class="list__nonbullet--inline">
-                <a class="link link--active" href="/">home</a>
+                <a class="link link--active" href="/">Home</a>
             </li>
             <li class="list__nonbullet--inline">
-                <a class="link" href="/">products</a>
+                <a class="link" href="/projects.html">Projects</a>
             </li>
             <li class="list__nonbullet--inline">
-                <a class="link" href="/">about</a>
+                <a class="link" href="/blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-
-    <h2>@header</h2>
-
     <header class="hero">
-        <img class="hero__img" src="images/hero.svg" alt="">
+        <img class="hero__img" src="/images/hero.svg" alt="">
         <h1 class="hero__heading">I am a <span class="hero__heading--highlight">Web Developer</span></h1>
     </header>
 
-    <hr>
-
-
-    <h2>@section</h2>
+    <section class="section ow">
+        <div class="container container__center">
+            <h1>Technologies</h1>
+            <p> I have started learning Web Development from NEOG. Till now i am familiar with HTML5, CSS3, Javascript, Git, NodeJS, ReactJS and Web Hosting.</p>
+        </div>
+    </section>
 
     <section class="section">
         <div class="container container__center">
-            <h1>white section</h1>
-            <p> this will have white background Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nisi
-                ratione, excepturi eligendi dolor doloremque magni vitae tempora, deserunt quae vel debitis tenetur fuga
-                ipsum architecto autem perspiciatis laboriosam facere!</p>
+            <h1>Projects</h1>
+            <p>These are the projects that i have created. You can go through it and send your Review/Feedback through any of the handles mentioned at the end. </p>
+            <a class="link link__primary" href="/projects.html">See Projects</a>
         </div>
     </section>
 
     <section class="section ow">
         <div class="container container__center">
-            <h1>off white section</h1>
-            <p>this will have a white background Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, magni
-                suscipit dignissimos corporis culpa labore incidunt velit praesentium in enim ea, nam iusto? Nihil
-                reiciendis nam tempora iusto libero! Possimus!</p>
+            <h1>Blogs</h1>
+            <p>I also like to write some technical and non Etechnical blogs. I like to document my journey!</p>
+            <a class="link link__secondary" href="/blogs.html">Read Blogs</a>
         </div>
     </section>
 
-    <hr>
-
-
-    <h2>@footer</h2>
-
     <footer class="footer">
-        <div class="footer__header">some small heading inside footer</div>
+        <div class="footer__header">some online presence</div>
         <ul>
-            <li class="list__nonbullet--inline"><a class="link" href="/"> socialOne</a></li>
-            <li class="list__nonbullet--inline"><a class="link" href="/"> socialTwo</a></li>
-            <li class="list__nonbullet--inline"><a class="link" href="/">socialThree</a> </li>
+            <li class="list__nonbullet--inline"><a class="link" href="https://github.com/VinayakaHegade"> GitHub</a></li>
+            <li class="list__nonbullet--inline"><a class="link" href="https://twitter.com/vinayakhegde8"> Twitter</a></li>
+            <li class="list__nonbullet--inline"><a class="link" href="https://www.linkedin.com/in/vinayak-hegde-1492a71a1">Linkedin</a> </li>
         </ul>
     </footer>
-
-
 </body>
-
 </html>
