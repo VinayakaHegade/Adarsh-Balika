@@ -95,20 +95,20 @@ hr {
     color: var(--primary-color);
 }
 
-.section{
+.section {
     text-align: justify;
     padding: 2rem;
 }
 
-.section h1{
+.section h1 {
     text-align: center;
 }
 
-.ow{
+.ow {
     background-color: var(--off-white);
 }
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
@@ -116,15 +116,15 @@ hr {
     border-top-right-radius: 0.5rem;
 }
 
-.footer .footer__header{
+.footer .footer__header {
     font-weight: bold;
     font-size: large;
 }
 
-.footer .link{
+.footer .link {
     color: white;
 }
 
-.footer .ul{
+.footer .ul {
     padding-inline-start: 0px;
 }
